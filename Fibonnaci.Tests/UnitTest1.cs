@@ -21,5 +21,12 @@ namespace Fibonnaci.Tests
             long result1 = Fibonnaci.CalculateTime(x).ElapsedTicks;
             Debug.WriteLine("Time: {0} - {1}", x, result1);
         }
+
+        [TestMethod]
+        public void TestStrength()
+        {
+            var str = Fibonnaci.GetStrength();
+            Debug.WriteLine("Elapsed {0} Ticks {1} Sequence {2}", str.Elapsed, str.ElapsedTicks, str.Sequence);
+        }
     }
 }

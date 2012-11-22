@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonnaci", "Fibonnaci\Fibonnaci.csproj", "{9A4DF80E-DAB6-461C-AB4C-B75D1F9C0C74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonnaci\Fibonacci.csproj", "{9A4DF80E-DAB6-461C-AB4C-B75D1F9C0C74}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonnaci.Tests", "Fibonnaci.Tests\Fibonnaci.Tests.csproj", "{0656CADD-8075-436A-8D67-14BF46D42EC0}"
 EndProject

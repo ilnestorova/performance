@@ -1,5 +1,4 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace Fibonnaci
 {
@@ -43,26 +42,12 @@ namespace Fibonnaci
         public static Strength GetStrength()
         {
             long i = 1;
-            while (CalculateTime(i).Elapsed.Milliseconds <= 100)
+            while (CalculateTime(i).Elapsed.Milliseconds <= 10)
             {
                 i++;
             }
             var sw = CalculateTime(i);
             return new Strength(sw.Elapsed, sw.ElapsedTicks, i);
-        }
-    }
-
-    public class Strength
-    {
-        public TimeSpan Elapsed { get; private set; }
-        public long ElapsedTicks { get; private set; }
-        public long Sequence { get; private set; }
-
-        public Strength(TimeSpan elapsed, long elapsedTicks, long sequence)
-        {
-            Elapsed = elapsed;
-            ElapsedTicks = elapsedTicks;
-            Sequence = sequence;
         }
     }
 }

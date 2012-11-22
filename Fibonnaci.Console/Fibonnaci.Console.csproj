@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Fibonnaci\Fibonnaci.csproj">
+    <ProjectReference Include="..\Fibonnaci\Fibonacci.csproj">
       <Project>{9a4df80e-dab6-461c-ab4c-b75d1f9c0c74}</Project>
-      <Name>Fibonnaci</Name>
+      <Name>Fibonacci</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
